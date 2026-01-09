@@ -42,7 +42,3 @@ We use [IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_AP
    - Ensure you access via `https` or `localhost` (browsers block camera on insecure http unless it's localhost). 
    - *Note: Vite `npm run dev -- --host` exposes it to network.*
 
-## Future Improvements for Production
-- **Service Worker**: For true offline PWA support.
-- **Chunked Uploads**: For large files.
-- **Compression**: Transcode video on client (using FFmpeg.wasm) to save bandwidth.
